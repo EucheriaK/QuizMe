@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Style the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the quiz container */
+#quiz-container {
+    max-width: 800px;
+    margin: 60px;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 40px rgba(10, 10, 10, 1.0);
+	perspective: 500px;
+	transform: rotateY(10deg) translateZ(100px);
+	background: linear-gradient(45deg, #f0f0f0, #ffffff);
+}
+}
+
+/* Style the question text */
+#question {
+    font-size: 50px;
+    margin-bottom: 20px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style answer buttons */
+.choice {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #0056b3;
+}
+
+/* Style the submit button */
+#submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #1e7e34;
+}
+
